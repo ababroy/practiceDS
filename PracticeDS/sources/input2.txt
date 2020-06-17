@@ -1,0 +1,6 @@
+mouse
+apple
+banana
+mug
+zoo
+garden

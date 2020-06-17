@@ -1,0 +1,12 @@
+apple
+Ball
+banana
+dog
+garden
+large
+medium
+mouse
+mug
+small
+zebra
+zoo

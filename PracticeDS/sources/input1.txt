@@ -1,0 +1,6 @@
+dog
+zebra
+large
+Ball
+medium
+small
