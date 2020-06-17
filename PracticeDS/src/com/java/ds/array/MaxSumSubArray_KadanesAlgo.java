@@ -4,7 +4,8 @@ public class MaxSumSubArray_KadanesAlgo
 {
     public static void main ( String[] args )
     {
-        int[] arr = { 4, -3, -2, 2, 3, 1, -2, -3, 4, 2, -6, -3, -1, 3, 1, 2 };
+        int[] arr = {-10,1,2,3,-7,4,-20};//{ 4, -3, -2, 2, 3, 1, -2, -3, 4, 2, -6, -3, -1, 3, 1, 2 };
+        //                       2+3+1-2-3+4+2
         int maxSoFar = arr[ 0 ];
         int maxEndHere = 0;
 
@@ -29,7 +30,7 @@ public class MaxSumSubArray_KadanesAlgo
         }
 
         System.out.println( maxSoFar );
-        System.out.println( "start_index: " + start + " || end-index: " + end );
+        System.out.println( "start_index: " + start + " || end-index: " +end +" Length: "+ (end+1-start) );
     }
     
 }
